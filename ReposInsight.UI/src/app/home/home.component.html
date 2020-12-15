@@ -1,0 +1,16 @@
+<button mat-raised-button color="primary" (click) = "onClickSync()">SYNC LATEST DATA</button>
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    <app-commitoverperiodtime timePeriod="week"></app-commitoverperiodtime>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-commitoverperiodtime timePeriod="month"></app-commitoverperiodtime>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-toptencommitter></app-toptencommitter>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-languagebreak></app-languagebreak>
+  </mat-grid-tile>
+</mat-grid-list>
+

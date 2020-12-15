@@ -1,0 +1,13 @@
+<h2>TOP 10 COMMITTER</h2>
+<div style="display: block">
+    <canvas baseChart width="600" height="250"
+        [chartType]="chartType"
+        [datasets]="chartDatasets"
+        [labels]="chartLabels"
+        [colors]="chartColors"
+        [options]="chartOptions"
+        [legend]="lineChartLegend"
+        (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)">
+    </canvas>
+  </div>
