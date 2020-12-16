@@ -28,6 +28,7 @@
 - API
   - Use IntellJ: https://www.jetbrains.com/idea/
   - Open Folder ...\ReposInsight.API by IntellJ
+  - Update spring.datasource.username=*yourusernameforpostgre*, spring.datasource.password=*yourpasswordforpostgre* in application.properties file: ...\src\main\resources\application.properties
   - On menu, select Build tab -> Build Project
   - Go to main file: repos-insight/ReposInsight.API/src/main/java/com/githubtools/demo/DemoApplication.java
   - Run it.
