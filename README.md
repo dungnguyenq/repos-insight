@@ -15,7 +15,7 @@
   - Use IntellJ: https://www.jetbrains.com/idea/
   - Open Folder ...\ReposInsight.API by IntellJ
   - On menu, select Build tab -> Build Project
-  - Goto main file: repos-insight/ReposInsight.API/src/main/java/com/githubtools/demo/DemoApplication.java
+  - Go to main file: repos-insight/ReposInsight.API/src/main/java/com/githubtools/demo/DemoApplication.java
   - Run it.
 
 - Database
