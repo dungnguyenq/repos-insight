@@ -23,7 +23,7 @@
   - Use database dump from ...\ReposInsight.DB\repos_insight_db
   - Open pgAdmin 4
   - Create new database with name: github_metrics
-  - Use dump command: psql -U *yourusernameforpostgre testdump* < *path to repos_insight_db* 
+  - Use dump command: psql -U *yourusernameforpostgre* github_metrics < *path to repos_insight_db* 
 
 - API
   - Use IntellJ: https://www.jetbrains.com/idea/
