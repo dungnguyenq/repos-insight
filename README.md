@@ -39,6 +39,8 @@
   - Type: "ng serve" or "npm start" to run
   - Navigate to http://localhost:4200/ to enjoy
 
+<b>Note : IN THE FIRST TIME RUN THE PROJECT, NEED TO CLICK TO "SYNC LATEST DATA" TO SYNC LATEST DATA FROM GITHUB.
+  THE SYNC FUNCTION WILL AUTOMATICALLY RUN EVERY SIX HOURS</b>
 
 - Currently Fuction in App:
   - list commits weekly in latest 3 months
