@@ -7,9 +7,23 @@
   - PostgreSQL 10
   - Github Api: https://docs.github.com/en/free-pro-team@latest/rest
 
-- Live Demo:
+- Live Demo: update later!!!
+
+
+- Need to install:
+  - Node v14.15.1 : https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi
+  - Java 8: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html
+  - Angular CLI 11.0.4: https://cli.angular.io/
+  - PostgreSQL 10.15: https://www.postgresql.org/download/
+  - PgAdmin 4: https://www.pgadmin.org/download/
 
 - Step to run/build
+- Database
+  - Guide from PostgreSQL: https://www.postgresql.org/docs/10/backup-dump.html
+  - Use database dump from ...\ReposInsight.DB\repos_insight_db
+  - Open pgAdmin 4
+  - Create new database with name: github_metrics
+  - Use dump command: psql -U *yourusernameforpostgre testdump* < *path to repos_insight_db* 
 
 - API
   - Use IntellJ: https://www.jetbrains.com/idea/
@@ -18,10 +32,8 @@
   - Go to main file: repos-insight/ReposInsight.API/src/main/java/com/githubtools/demo/DemoApplication.java
   - Run it.
 
-- Database
-
-
 - UI
+  - Use Visual Studio Code: https://code.visualstudio.com/docs/setup/linux
   - Open Folder ...\ReposInsight.UI
   - Type the command: "npm install"  to install package
   - Type: "ng serve" or "npm start" to run
