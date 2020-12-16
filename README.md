@@ -38,8 +38,8 @@
 
 - Function will be implement in the future:
 
-  - Need to authorize API
-  - Add unit test
+  - Authorize API needed
+  - Add Unit Test
   - Get more data from github
   - ...
   
