@@ -29,11 +29,11 @@
 
 
 - Currently Fuction in App:
-  - list commits week over week in latest 3 month
-  - list commits week over week in latest 3 month
-  - top 10 committer in latest 3 month
-  - language break down
-  - sync data to get latest data
+  - list commits weekly in latest 3 months
+  - list commits monthly in latest 3 months
+  - top 10 committers in latest 3 months
+  - language breakdown
+  - getting latest data by sync data
 
 
 - Function will be implement in the future:
